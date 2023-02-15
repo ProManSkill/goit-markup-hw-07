@@ -1,0 +1,42 @@
+@media  screen and (min-width:1158px) {
+    .container {
+        max-width: 1158px;
+        gap: 24px;
+        } 
+        .advantages{
+        padding-top: 120px;
+        padding-bottom: 120px;
+        }
+        .feature-list {
+            margin-top: 8px;
+            gap: 24px;}
+        .feature-containers{
+            max-width: 264px;
+            }
+            .feature-containers .title{margin-top: 8px;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 1.11;
+                text-align: center;
+                letter-spacing: 0.02em;}
+                .feature-list .subtitle{
+                    font-weight: 400;
+        .feature-containers::before{
+            display: block;
+            content: "";
+            height: 112px;
+            background-size: 64px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color:var(--footer-logo-color);
+            border-radius: 4px;
+        }
+        .about{
+            display: flex;
+            }
+    .ourteam{
+    padding-top: 120px;
+    padding-bottom: 120px;
+        }
+    
+}
