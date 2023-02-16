@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/desktop.css">
 </head>
 <body>
-    <!-- <header class="page-header"> 
+    <header class="page-header"> 
         <div class="container header-container">
             <nav class="navigation">
             <p class="logo">
@@ -37,16 +37,16 @@
             </address>
         </div>
         
-    </header> -->
+    </header>
     <main>
-        <!-- <section class="hero">
+        <section class="hero">
             <div class="hero-container">
                 <div class="container">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
                   <button type="button" data-modal-open class="button-one">Order Service</button>
                 </div>
             </div>
-             </section> -->
+             </section>
             <section class="advantages">
         <div class="container">
 
@@ -83,11 +83,12 @@
             </div>
            </section>
                <section class="ourteam">
-                <div class="container container-team">
+                <div class="container container-mini">
                  <h2 class="section-title">Our Team</h2>
                     <ul class="team-list list">
                     <li class="team-list-shadow">
-                        <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" height="260"> 
+                        <img srcset="./images/mark.jpg 1x,./images/mark-2x.jpg 2x "
+                        src="./images/mark.jpg" alt="Mark Guerrero" width="264" height="260"> 
                         <div class="team-about">
                             <h3 class="title">Mark Guerrero </h3>
                             <p class="subtitle">Product Designer</p>
@@ -119,7 +120,8 @@
                         </div>
                     </li>
                     <li  class="team-list-shadow">
-                        <img src="./images/tom.jpg" alt="Tom Ford" width="264" height="260">
+                        <img srcset="./images/tom.jpg 1x,./images/tom-2x.jpg 2x "
+                         src="./images/tom.jpg" alt="Tom Ford" width="264" height="260">
                         <div class="team-about">
                             <h3 class="title">Tom Ford</h3> 
                             <p class="subtitle">Frontend Developer</p>
@@ -152,7 +154,8 @@
                         
                     </li>
                     <li class="team-list-shadow">
-                        <img src="./images/camila.jpg" alt="Camila Garcia" width="264" height="260"> 
+                        <img srcset="./images/camila.jpg 1x,./images/camila-2x.jpg 2x "
+                        src="./images/camila.jpg" alt="Camila Garcia" width="264" height="260"> 
                         <div class="team-about">
                             <h3 class="title">Camila Garcia</h3> 
                             <p class="subtitle">Marketing</p>
@@ -185,7 +188,8 @@
                     </li>
                     
                     <li class="team-list-shadow">
-                        <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" height="260" > 
+                        <img srcset="./images/daniel.jpg 1x,./images/daniel-2x.jpg 2x "
+                        src="./images/daniel.jpg" alt="Daniel Wilson" width="264" height="260" > 
                         <div class="team-about">
                             <h3 class="title">Daniel Wilson</h3>
                         <p class="subtitle">UI Designer</p>
@@ -257,7 +261,7 @@
                 </div>
                </section>
          </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container footer-container">
             <ul>
                 <li> 
@@ -300,7 +304,7 @@
                 </ul>
             </ul>
             </div>
-            <div class="footer-form">
+            <!-- <div class="footer-form">
                 <p class="social-text">Subscribe</p>
                 <div class="footer-subscribe">
                     <form>
@@ -308,15 +312,15 @@
                         <input class="footer-input" type="email" name="user-email" placeholder="E-mail" required>
                     </label>
                         <button type="submit" class="footer-button">Subscribe
-                            <!-- <span>
+                            <span>
                                 <svg class="subscribe-icon" widht="24" height="20">
                                     <use href="./images/icons.svg#icon-subscribe"></use>
                                 </svg>
-                            </span> -->
+                            </span>
                         </button>
                     </form>
                 </div>
-            </div>
+            </div> -->
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -369,7 +373,7 @@
                 <button type="submit" class="modal-button">Send</button>
             </form>
         </div>
-    </div> -->
+    </div>
     <script src="./js/modal.js"></script>
 </body>
 </html>

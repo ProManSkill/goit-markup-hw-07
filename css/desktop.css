@@ -3,6 +3,10 @@
         max-width: 1158px;
         gap: 24px;
         } 
+        .hero-container{
+            padding-top: 112px;
+            padding-bottom: 112px;
+        }
         .advantages{
         padding-top: 120px;
         padding-bottom: 120px;
