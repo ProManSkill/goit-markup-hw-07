@@ -82,13 +82,24 @@ color:var(--accent-text-color);}
 .logostudio {color: #2E2F42;}
 
 .logo{
-margin-right: 76px;
+margin-right: 250px;
 display: flex;
 }
 
 
 .site-nav{
     display: none;
+}
+
+.address{
+    display: none;
+}
+
+.menu-button{
+    width:32px;
+    height: 22px;
+padding: 0;
+/* margin-left: 250px; */
 }
 
 /* .address-item-mail,.address-item-tel{
@@ -428,8 +439,8 @@ fill:var(--accent-text-color) var(--accent-text-color);} */
 
 .footer {
 align-items: baseline;
-padding-top: 100px;
-padding-bottom: 100px;    
+padding-top: 96px;
+padding-bottom: 96px;    
 background-color:var(--second-background-color);}
 
 .footer-logo{
@@ -778,21 +789,29 @@ overflow: hidden;
 }
 
 .footer-form{
+width: 100%;
+margin-top: 72px;
+/* margin-left: 80px; */
+}
 
-margin-left: 80px;
+.form{
+max-width: 428px;
+display: flex;
+flex-direction: column;
+gap: 16px;
 }
 
 .footer-input{
-width: 264px;
-height: 40px;
-margin-right: 24px;
-padding-left: 16px;
-border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-outline: transparent;
-background-color: transparent;
-color: var(--footer-text-color);
+    width: 100%;
+    height: 40px;
+    margin-right: 24px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: transparent;
+    background-color: transparent;
+    color: var(--footer-text-color);
 }
 
 .footer-input:focus{
@@ -806,13 +825,15 @@ letter-spacing: 0.04em;
 color: rgba(255, 255, 255, 0.6);
 }
 .footer-subscribe{
+
 position: relative;
 }
 .footer-button{
-position: absolute;
-display: inline-flex;
-padding: 8px 24px;
+position: relative;
+padding: 8px 64px 8px 24px;
+max-width: 165px;
 max-height: 40px;
+margin:0 auto;
 gap: 16px;
 font-weight: 500;
 font-size: 16px;
@@ -832,11 +853,20 @@ cursor: pointer;
 background-color: var(--button-hover-color);
 }
 
+/* .subscribe-icon{
+    fill: var(--footer-logo-color);
+    position: absolute;
+    left: -24px;
+    bottom: 10px;
+} */
 .footer-button::after{
+position: absolute;
 content: "";
 right: 24px;
 width: 24px;
 height: 20px;
+top: 10px;
+mask-repeat: no-repeat;
 background-image: url(../images/subscribe.svg);
 }
 
@@ -844,4 +874,67 @@ background-image: url(../images/subscribe.svg);
 
 
 
+/* 
 
+.footer-form{
+    margin-left: 80px;
+    }
+    
+    .footer-input{
+    width: 264px;
+    height: 40px;
+    margin-right: 24px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: transparent;
+    background-color: transparent;
+    color: var(--footer-text-color);
+    }
+    
+    .footer-input:focus{
+    border-color: var(--footer-text-color);
+    }
+    
+    .footer-input::placeholder{
+    font-size: 12px;
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    }
+    .footer-subscribe{
+    position: relative;
+    }
+    .footer-button{
+    position: absolute;
+    display: inline-flex;
+    padding: 8px 24px;
+    max-height: 40px;
+    gap: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    border: transparent;
+    background-color: var(--accent-text-color);
+    color:var(--button-text-hover);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
+    
+    .footer-button:focus,
+    .footer-button:hover{
+    cursor: pointer;
+    background-color: var(--button-hover-color);
+    }
+    
+    .footer-button::after{
+    content: "";
+    right: 24px;
+    width: 24px;
+    height: 20px;
+    background-image: url(../images/subscribe.svg);
+    }
+     */
