@@ -2,6 +2,16 @@
     .container {
         max-width: 768px;
         } 
+
+        .feature-containers{
+            max-width: 356px;
+            }
+        .feature-list {
+            gap: 72px 24px;
+        }
+        .feature-containers .title{
+            text-align: left;
+        }
         .team-list{
             gap: 64px 24px;
         }
@@ -9,5 +19,13 @@
         .ourteam{
             padding-bottom: 104px;
             }
+
+            .customers-list {
+                gap: 72px 24px;
+                }
+                
+                .customers-item {
+                width: 168px;
+                }
     
 }

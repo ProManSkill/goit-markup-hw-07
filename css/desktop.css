@@ -1,4 +1,4 @@
-@media  screen and (min-width:1158px) {
+@media  screen and (min-width:1200px) {
     .container {
         max-width: 1158px;
         gap: 24px;
@@ -8,7 +8,6 @@
         padding-bottom: 120px;
         }
         .feature-list {
-            margin-top: 8px;
             gap: 24px;}
         .feature-containers{
             max-width: 264px;
@@ -19,17 +18,11 @@
                 line-height: 1.11;
                 text-align: center;
                 letter-spacing: 0.02em;}
+
                 .feature-list .subtitle{
-                    font-weight: 400;
+                    font-weight: 400;}
         .feature-containers::before{
             display: block;
-            content: "";
-            height: 112px;
-            background-size: 64px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-color:var(--footer-logo-color);
-            border-radius: 4px;
         }
         .about{
             display: flex;
@@ -38,5 +31,8 @@
     padding-top: 120px;
     padding-bottom: 120px;
         }
-    
+        .customers{
+            padding-top: 120px;
+            padding-bottom: 120px;
+            }
 }

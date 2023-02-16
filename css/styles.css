@@ -322,9 +322,7 @@ flex-wrap: wrap;
 gap: 72px;
 color:var(--primary-text-color);}
 
-/* .feature-containers{
-max-width: 264px;
-} */
+
 
 .feature-containers::before{
     display: none;
@@ -426,16 +424,18 @@ text-align: center;}
 
 
 .customers{
-padding-top: 130px;
-padding-bottom: 120px;
+padding-top: 96px;
+padding-bottom: 96px;
 }
 .customers-list {
 display: flex;
-gap: 24px;
+flex-wrap: wrap;
+gap: 72px 16px;
+justify-content: center;
 }
 
 .customers-item {
-width: 168px;
+width: 190px;
 height: 88px;
 }
 .customers-link {
