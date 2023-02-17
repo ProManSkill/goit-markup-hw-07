@@ -1,8 +1,38 @@
 @media  screen and (min-width:1200px) {
     .container {
         max-width: 1158px;
-        gap: 24px;
+        
         } 
+
+        .logo{
+            margin-right: 76px;
+        }
+
+        .header-container{
+            align-items: center;
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+
+        .address{
+           
+            flex-direction: row;
+            gap: 40px;
+        }
+
+        .address-item-mail{
+            margin-bottom: 4px;
+        }
+        .address-item-mail,.address-item-tel,
+        .address-link{
+        text-decoration: none;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.5px;
+        letter-spacing: 0.02em;
+        }
+        
+
         .hero-container{
             padding-top: 112px;
             padding-bottom: 112px;
@@ -39,4 +69,28 @@
             padding-top: 120px;
             padding-bottom: 120px;
             }
+
+            .footer-container{
+                justify-content: flex-end;
+            }
+            .container-mini-f{
+                display: flex;
+                max-width: 100%;
+               margin-left: 93px;
+            }
+            .social{
+                margin-left: 120px;
+            }
+            .footer-container{
+                flex-wrap: nowrap;
+            }
+            .footer-form{
+                margin-top: 0;
+                margin-left: 80px;
+            }
+            .contents-about{
+                padding-top: 96px;
+                padding-bottom: 120px;}
+            .container-list{
+                width: calc((100% - 48px)/3);}
 }

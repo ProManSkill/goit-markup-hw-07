@@ -5,7 +5,24 @@
        /* .container-mini{
         width: 552px;
         } */
+.menu-mob-wrap{
+    display: none;
+}
+        .menu-button{
+            display: none;
+        }
 
+        .logo{
+            margin-right: 123px;
+        }
+        .header-container{
+            display: flex;
+            align-items: flex-start;
+            padding-top: 24px;
+            padding-bottom: 13px;
+        }
+
+        
         .site-nav {
             font-weight: 500;
             line-height: 1.5;
@@ -40,16 +57,28 @@
                 background-color: var(--button-hover-color);
                 border-radius: 2px;
             }
+
+            .header-address{
+                display: flex;
+                margin-left: auto;
+                }
+        
             .address{
             display: flex;
-            margin-left: 330px;
-            gap: 40px;
+            flex-direction: column;
             }
+
+            .address-item-mail{
+                margin-bottom: 4px;
+            }
+            .address-item-mail,.address-item-tel,
             .address-link{
             text-decoration: none;
             font-style: normal;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
+            font-size: 12px;
+            line-height: 1.33;
+            letter-spacing: 0.04em;
+            
             color:var(--subtitle-text-color) ;
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
             
@@ -104,7 +133,7 @@
                 .footer-container{
                     justify-content: left;
                 }
-                .container-mini{
+                .container-mini-f{
                     display: flex;
                     max-width: 486px;
                    margin-left: 93px;
@@ -122,35 +151,43 @@
         text-align: left;
     }
     
+    .footer-list{
+    min-width: 264px;
+    }
     
     .footer-form{
-        
+
         margin-left: 93px;
         }
         
         .form{
         display: flex;
         flex-direction: row;
+        gap: 24px;
         
         }
 
     .footer-input{
-        width: 264px;
-    
+    min-width: 264px;
     height: 40px;
-    margin-right: 24px;
+    margin-right: 0;
     padding-left: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    outline: transparent;
-    background-color: transparent;
-    color: var(--footer-text-color);
+    
     }
     .footer-button{
         margin: 0;
     }
 
+    .contents-about{
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+
+    .contents{
+        justify-content: center;
+    }
+    .container-list{
+        width: calc((100% - 24px)/2);}
     
     
     
