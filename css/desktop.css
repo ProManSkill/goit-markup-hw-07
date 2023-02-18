@@ -47,11 +47,10 @@
             max-width: 264px;
             }
             .feature-containers .title{margin-top: 8px;
-                font-weight: 700;
-                font-size: 36px;
-                line-height: 1.11;
-                text-align: center;
-                letter-spacing: 0.02em;}
+                font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+                }
 
                 .feature-list .subtitle{
                     font-weight: 400;}
